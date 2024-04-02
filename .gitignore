@@ -1,2 +1,9 @@
 /products/node_modules/
 /products/dist/
+/cart/node_modules/
+/container/node_modules/
+/.idea/php.xml
+/.idea/vcs.xml
+/.idea/modules.xml
+/.idea/microfrontend-react.iml
+/.idea/.gitignore
