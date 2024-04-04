@@ -1,5 +1,8 @@
-import { mount } from 'products/ProductsIndex';
-import { mount as mountCart } from 'cart/CartShow';
+import React from 'react';
+import ReactDom from 'react-dom';
+import App from './App';
 
-mount(document.querySelector('#devProductsList'));
-mountCart(document.querySelector('#my-cart'));
+ReactDom.render(
+    <App />,
+    document.querySelector('#root')
+);
